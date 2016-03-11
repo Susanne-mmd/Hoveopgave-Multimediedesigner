@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Style udelukkende for adninistrator panel, samt undersider */
+
+/*Administrator panel*/
+h5{
+	margin-bottom: -15px;
+	text-align: center;
+	color: #FFF;
+}
+
+h3{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	color: #000;
+	margin-top: -150px;
+	padding-bottom: 160px;
+	text-align: center;
+}
+
+.lodret_menu{
+	width: 11em;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000;
+	position: relative;
+	right: 155px;
+	top: 25px;
+}
+
+.lodret_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.lodret_menu li{
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin: 0;
+	list-style: none;
+	list-style-image: none;
+}
+
+.lodret_menu li a {
+	font-family: Verdana, Geneva, sans-serif;
+	display: block;
+	padding: 5px 5px 5px 10px;
+	background-color: #F90;
+	color: #000;
+	text-decoration: none;
+	width: 100%;
+}
+
+html>body .lodret_menu li a {
+	width: auto;
+}
+
+.lodret_menu li a:hover {
+	border-left: 10px solid #1c64d1;
+	border-right: 10px solid #1c64d1;
+	color: #fff;
+	background-color: #F90;
+}
+
+/* style for oprettelse af nyhedsbrev/aktiviteter */
+.form{
+	margin-top: -200px;
+	text-align: center;
+	}
+	
+.form ul li{
+	display: block;
+	margin-top: 10px;
+}
+/* end style*/	
+
+/* style på registrering af admin-bruger*/
+.reg_admin_form{
+	margin-top: -200px;
+	margin-left: 50px;
+}	
+	
+.reg_admin_form ul li{
+	display: block;
+	margin-top: 10px;
+}
+
+/* style på oversigter */
+.admin_tabel{
+	margin-top: -200px;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.galleri_admin{
+	margin-top: -200px;
+}

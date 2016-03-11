@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* overall style på fælles PHP sider */
+
+body{
+	background-color: #69F;
+}
+
+.logo{
+	margin: auto;
+}
+	
+/*Login style*/
+.login_form{
+	border: solid thin #000;
+}
+
+.login_form table{
+	width: 845px;
+	margin: auto; 
+	}
+
+/*Login baggrund*/
+.skater{
+	height: 700px;
+	width: 849px;	
+}
+
+.main_container{
+	width: 849px;
+	min-height: 650px;
+	background-color: #FFF;
+	margin: auto;
+	border: 1px solid #000;
+}
+
+p{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: xx-large;
+	text-align:	center;	
+}
+
+h6{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+h4{
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	color: #000;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.forside{
+	margin-top:110px;
+}
+
+a:link{
+	color: #000;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #06F;
+	text-decoration:none;
+}
+
+a:active{
+	color: #06F;
+	text-decoration:none;
+}
+
+a:visited{
+	color: #06F;
+	text-decoration:none;
+}
+
+/*hovedmenu*/
+
+.navbar{
+	background: #FFF;
+	text-align: center;
+}
+	
+nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	display:block;
+	border-top: 1px solid #000;
+}
+
+nav ul li {
+	float:left;
+	display:list-item;
+	list-style: none;
+	background-color:#FFF;
+	border-bottom: 5px solid #000;
+}
+ 
+nav ul li a {
+	display: block;
+	color: #FFF;
+	font-size: small;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 51px;
+	padding-left: 51px;
+}
+ 
+li a:hover { 
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #FFF;
+	color: #06F;  
+}
+
+/* The Dropdown Styles */
+/* =================== */
+ 
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+	border: 1px solid #000;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:list-item;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width: auto;
+	float: none;
+	position: relative;
+	top: -1px;
+	border-bottom: none;
+	background-color: #69F;
+}
+
+/* Dropdown symbol */
+li > a:after { content: ' »'; }
+li > a:only-child:after { content: ''; }
+/* end på navbar*/
+
+/* footer style*/
+.adresse{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	width: 849px;
+	margin: auto;
+	background-color:#F90;
+	border: 1px solid #000; 
+}
+
+.adresse ul li{
+	display: inline;
+	padding-right: 77px;
+	}
+/* end på footer style*/
+
+/* nyhedbrev/aktiviteter/månedsplan osv. style*/
+table{
+	margin: auto;
+	width: 450px;
+	}
+
+table th{
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #000;	
+	}
+/* end style*/
+
+/* registreringsform forældre og barn*/
+.reg_form{
+	margin-left: 50px;
+}
+	
+.reg_form ul li{
+	display: block;
+	margin-top: 10px;
+}
+
+.dummy{
+	position: relative;
+	bottom: 300px; 
+}
+
+.link_galleri{
+	margin-left: 150px;
+}
+
+.billedestripe{
+	float: right;
+	margin-right: 100px;
+	margin-top: -25px;
+}
